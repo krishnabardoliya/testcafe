@@ -1,0 +1,5 @@
+- fixture is description of test suit, it contains group of test with same starting URL.
+- page is method to set starting URL of the fixture.
+- test is testcase body. we can crreate multiple test inside fixture.
+
+

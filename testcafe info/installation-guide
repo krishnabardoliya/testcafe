@@ -1,0 +1,19 @@
+- Need nodejs and npm
+- install testcafe globally in local to run testcafe
+npm install -g testcafe
+- create package.json (-y will install with default setting and will not ask user for input)
+npm init -y
+- install testcafe dev dependency
+npm install testcafe --save-dev
+- run testcase
+testcafe source-test-file.js
+- to enable live mode to reload test as you edit them, it will keep brouser window open and restart test as you save the file
+testcafe source-test-file.js --live
+- CTRL + S
+stops the current test case
+- CTRL + R
+restarts current test run
+- CTRL + W
+turns the file watcher on and off
+- CTRl + C
+close live mode
